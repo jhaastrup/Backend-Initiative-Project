@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const {getRentals, createRental, getRental, deleteRental} = require('./controllers/rentals');
+const {getRentals, createRental, getRental, deleteRental} = require('../controllers/rentals');
 
 //get all rentals
 router.get('/', getRentals);
